@@ -120,7 +120,7 @@ a:visited {
   margin-bottom: 1.75rem;
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 0.5rem 2.5rem;
 
   /* Match height and activity boxes */
@@ -231,5 +231,9 @@ a:visited {
 
   #map {
     height: 100%;
+  }
+
+  .form {
+    grid-template-columns: 1fr 1fr;
   }
 }
